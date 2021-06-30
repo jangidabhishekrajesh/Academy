@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream City Cricket Academy | SHAHADA</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="home">
+        <!-- Navbar Start Here -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-sticky">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="home.html"><img src="./images/dcca.png" alt="" width="30" height="30"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link"  href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="player.html">Players</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+                </form>
+              </div>
+            </div>
+        </nav>
+        <!-- Navbar End Here -->
+
+        <!-- contact us start here -->
+        <div class="container">
+            <div class="col-12">
+                <h2 class="text-center text-light bg-secondary p-2 mt-5">CONTACT US</h2>
+            </div>
+            <p class="text-center w-responsive mx-auto mt-2 mb-5 text-success">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+                a matter of hours to help you.</p>
+            <div class="shadow p-5">
+                <!--Section: Contact v.2-->
+                <section class="mb-4">
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-md-9 mb-md-0 mb-5">
+                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                                <!--Grid row-->
+                                <div class="row">
+                                    <!--Grid column-->
+                                    <div class="col-md-6 mt-3">
+                                        <div class="md-form mb-0">
+                                            <label for="name" class="">Your name</label>
+                                            <input type="text" id="name" name="name" class="form-control">    
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6 mt-3">
+                                        <div class="md-form mb-0">
+                                            <label for="email" class="">Your email</label>
+                                            <input type="text" id="email" name="email" class="form-control">
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+                                    <div class="col-md-12 mt-3">
+                                        <div class="md-form mb-0">
+                                            <label for="subject">Subject</label>
+                                            <input type="text" id="subject" name="subject" class="form-control">   
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+                                    <!--Grid column-->
+                                    <div class="col-md-12 mt-3">
+                                        <div class="md-form">
+                                            <label for="message">Your message</label>
+                                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+                            </form>
+
+                            <div class="text-center text-md-left mt-3">
+                                <a class="btn btn-outline-success" onclick="document.getElementById('contact-form').submit();">Send</a>
+                            </div>
+                            <div class="status"></div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-3 text-center">
+                            <ul class="list-unstyled mb-0">
+                                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                    <p>Dream City Ground, Shahada 425409, IND</p>
+                                </li>
+                                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                    <p>+ 91 97670 84719</p>
+                                </li>
+                                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                    <p>dreamcitycric@gmail.com</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                </section>
+            </div>
+            <!--Section: Contact v.2-->
+        </div>
+        <!-- contact us end here -->
+    </div>
+     <!-- footer start here -->
+     <div class="container-fluid pb-0 mb-0 mt-5 justify-content-center text-light ">
+        <footer>
+            <div class="row my-5 justify-content-center py-5">
+                <div class="col-11">
+                    <div class="row ">
+                        <div class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
+                            <img src="./images/dcca.png" width="15%" alt="">
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                            <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
+                            <ul class="list-unstyled">
+                                <a href="home.html" style="text-decoration: none; color: white;"><li>Home</li></a>
+                                <a href="about.html" style="text-decoration: none; color: white;"><li>About</li></a>
+                                <a href="player.html" style="text-decoration: none; color: white;"><li>Players</li></a>
+                                <a href="contact.html" style="text-decoration: none; color: white;"><li>Contact Us</li></a>
+                            </ul>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                            <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
+                            <p class="mb-1">Behind Reshmai Naturopathy,</p>
+                            <p>Dream City Society, Maloni</p>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+                            <p class="social text-muted mb-0 pb-0 bold-text"> <span class="mx-2"><i class="fa fa-facebook" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-twitter" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-instagram" aria-hidden="true"></i></span> </p><small class="rights"><span>&#174;</span> Dream City Cricket ACademy | All Rights Reserved.</small>
+                            <p class="text-light">Copyright &copy; 2019</p>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
+                            <h6 class="mt-55 mt-2 text-muted bold-text"><b>YUVRAJ PATIL</b></h6><small> <span><i class="fa fa-envelope" aria-hidden="true"></i></span> yuvraj@gmail.com</small>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
+                            <h6 class="text-muted bold-text"><b>ABHISHEK JANGID</b></h6><small><span><i class="fa fa-envelope" aria-hidden="true"></i></span> ab@gmail.com</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+      <!-- footer end here -->
+</body>
+</html>
